@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CACD688F-83B2-384A-8EB9-1907A1E6EE28" name="Atrakcje">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>B4AF894A-45A1-853D-1DB9-1E4D7A4D2B1E</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Atrakcji" id="186E98C1-9C77-3E99-99BC-337E5ADCE5B9">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>1863E0B3-D3D5-8DC8-C39C-0F654F97556F</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_atrakcji" id="A202CC74-3D12-F297-7E4E-B016749BBDBB">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>E7744089-B9FC-E772-10CE-E31538C115AC</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis_atrakcji" id="118A79E9-BB73-E3C0-2983-84FF6D5C0BF9">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>E2378DB6-4D78-41E0-D6BE-B8655EA5A7E8</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D421DAEB-ED9C-E5B2-D79F-2CA97EB4240C" name="Atrakcje_PK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>3CDC510B-682B-E939-7299-D2EB3E959437</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="186E98C1-9C77-3E99-99BC-337E5ADCE5B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

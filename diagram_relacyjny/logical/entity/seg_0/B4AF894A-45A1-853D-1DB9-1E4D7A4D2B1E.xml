@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4AF894A-45A1-853D-1DB9-1E4D7A4D2B1E" name="Atrakcje">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:08:54 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Atrakcji" id="1863E0B3-D3D5-8DC8-C39C-0F654F97556F">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:09:01 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa_atrakcji" id="E7744089-B9FC-E772-10CE-E31538C115AC">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:09:35 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opis_atrakcji" id="E2378DB6-4D78-41E0-D6BE-B8655EA5A7E8">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:09:42 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CDC510B-682B-E939-7299-D2EB3E959437" name="Atrakcje PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:13:58 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1863E0B3-D3D5-8DC8-C39C-0F654F97556F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

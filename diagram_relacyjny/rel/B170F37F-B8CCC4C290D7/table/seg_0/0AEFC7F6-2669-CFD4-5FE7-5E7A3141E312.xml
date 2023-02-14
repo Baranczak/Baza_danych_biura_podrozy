@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AEFC7F6-2669-CFD4-5FE7-5E7A3141E312" name="Atrakcje_rez">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>C32F23FE-47F8-AE3D-F80C-99E5147B8AB6</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Miejsca" id="4EF44B0A-6209-470B-39EF-CD2AE672FBA3">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>8092B937-54D2-DF15-4FE1-5B45589C7DFD</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Atrakcje_ID_Atrakcji" id="2762B33F-368C-F21A-DA29-E759D795171A">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>670B0263-81EA-E522-9E29-8F722ADB5041</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="925AAE7C-C271-5647-D0F2-0AB692805EE3" referredColumn="186E98C1-9C77-3E99-99BC-337E5ADCE5B9"/>
+</associations>
+</Column>
+<Column name="Rez_ID_Rezerwacji" id="E65497C6-3AD5-0C2E-C98A-29C65133DD2F">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>BA294A73-C213-33B8-BA96-7FBAB24DB580</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9DCBE3B-41BF-74B6-2A2B-B1B2AAAC6B07" referredColumn="23ED88B4-2E11-46AA-42E9-33C1D4D218AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E2D0D90-8ED9-51DE-51EB-6D46D48EB2AD" name="Atrakcje_Rezerwacji_PK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>68CF6684-D284-B086-B0FC-7819F22DC747</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2762B33F-368C-F21A-DA29-E759D795171A"/>
+<colUsage columnID="E65497C6-3AD5-0C2E-C98A-29C65133DD2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35E37FC3-31A1-CA33-8A7B-E8043FF98AEB" name="Atrakcje_rez_Atrakcje_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>1A26383B-1FE5-47BC-EAF5-1BF7DD5C21B6</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2762B33F-368C-F21A-DA29-E759D795171A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEEF2ADE-A9FF-42C7-82C0-12A28D69311B" name="Atrakcje_rez_Rez_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>E0C20C4E-FF23-91C2-4FC1-B94B35102D54</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E65497C6-3AD5-0C2E-C98A-29C65133DD2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

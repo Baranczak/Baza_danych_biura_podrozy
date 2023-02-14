@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CF925BC-8D9C-4468-F626-68DB97A95310" name="Lokalizacja">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 15:15:27 UTC</createdTime>
+<generatorID>B079BD44-12D8-6AB6-250C-CFEF3129E00C</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Lokalizacji" id="59C35520-45C8-2BF5-87DE-3915C8B14C1C">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 15:15:27 UTC</createdTime>
+<generatorID>243E599D-C24E-EF04-F263-16AEB98EDC18</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulica" id="E1CB7526-F711-6990-FB22-E456696648BB">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 15:15:27 UTC</createdTime>
+<generatorID>69CB161C-EA7F-07B0-60CD-D972C21AA110</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kod_pocztowy" id="49CE4A8C-607B-B7CD-212F-DD7C3D788ABC">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 15:15:27 UTC</createdTime>
+<generatorID>D79CDAD2-F8BF-71DF-8BBB-554D5F8C3AEE</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miejscowość" id="FF7180E8-81BB-F53D-F4A8-EA8F02E3A3C5">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 15:15:27 UTC</createdTime>
+<generatorID>B7CE3214-3895-5802-4941-327B3C3057F8</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kraj" id="6FBFCE5D-3528-A59C-0BC9-7EFD40E7AB77">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 15:15:27 UTC</createdTime>
+<generatorID>134DD89A-A01C-611F-F91A-4104300A96DC</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8109E95-8FD0-973E-D635-8B593E7F03BB" name="Lokalizacja_PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 15:15:27 UTC</createdTime>
+<generatorID>313DF5DB-AA79-34F1-C3D7-1396D9250487</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59C35520-45C8-2BF5-87DE-3915C8B14C1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA0A9527-0FD2-F0B9-126B-D1FD334FB734" name="Lokalizacja__IDX">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 15:15:28 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>70152E40-05FD-09B9-499D-F8B149756358</relationGeneratorID>
+</ind_PK_UK>
+</indexes>
+</Table>

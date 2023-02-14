@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86F0CDD9-853C-EC1D-66D5-F79E091B8377" name="Wyc">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:10:45 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Wycieczki" id="CFFD9F52-ED45-92E2-AA9A-5512CBFE2C6D">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:10:51 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ilisc_miejsc" id="F7CF3267-E248-68E3-D342-FA7703EF9DF5">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:11:08 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena_na_osoby" id="59A7A72B-E749-B99E-A4C3-7848300A36EE">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:11:20 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kraj" id="8AEC0925-B053-6921-21E8-9E39B654CDA9">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:12:41 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Miasto" id="4A0544AD-4E32-EB59-B1FE-D215038558FF">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:13:19 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opis" id="E5CE40F3-DB9B-C687-8D3D-53D0D834EB93">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:13:33 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C5EF73F-D43F-9560-B03F-FCE0B80CA26E" name="Wycieczki PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:13:43 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CFFD9F52-ED45-92E2-AA9A-5512CBFE2C6D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

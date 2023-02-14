@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D32CB5F2-FECA-CDDE-52BE-F79D5233DB82" name="Atrakcje_zam">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>C3ACFA16-4EE6-52EA-3021-7CD09A168196</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zam_ID_Zamowienia" id="B04218F0-B17A-A5B9-A876-4D47F19EDBEF">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>A22F9828-9EBD-BB76-CE8C-E523377C7311</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66C3AF77-F2D5-0BA6-9F07-524B99F4C0BC" referredColumn="B2609205-DD07-F182-ACBF-7DC51390D446"/>
+</associations>
+</Column>
+<Column name="Zam_Klient_ID_Klienta" id="98894F4B-09F7-5A82-F7F8-6E9152ECB255">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>2E0CF4D8-7DB6-8F87-B58D-8CF657358745</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66C3AF77-F2D5-0BA6-9F07-524B99F4C0BC" referredColumn="39F6EFD7-F82F-6365-3EE5-36546BBC168C"/>
+</associations>
+</Column>
+<Column name="Zam_Wyc_ID_Wycieczki" id="47337CFA-C24E-A51D-D70F-5F93AC9A16A6">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>9EC39533-4E0D-B688-7FFC-5A77D0E48DD7</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66C3AF77-F2D5-0BA6-9F07-524B99F4C0BC" referredColumn="6FBE0F0F-85F0-D033-DEE5-EAA47CC5B6E4"/>
+</associations>
+</Column>
+<Column name="Atrakcje_ID_Atrakcji" id="E11CD637-67D0-CB74-ABEC-F83E2743F3E8">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>80AB7AC4-3C6C-82CA-0508-7CEA8BE7BC4E</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71D1EAF8-95EE-0097-96D7-60C6F05D3C17" referredColumn="186E98C1-9C77-3E99-99BC-337E5ADCE5B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A182A5D-0392-91B5-C139-6CAFF7D16B0A" name="Atrakcje_Zamowienia_PK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>B43F9EB9-3264-5BE2-32AB-74C371EDA284</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B04218F0-B17A-A5B9-A876-4D47F19EDBEF"/>
+<colUsage columnID="98894F4B-09F7-5A82-F7F8-6E9152ECB255"/>
+<colUsage columnID="47337CFA-C24E-A51D-D70F-5F93AC9A16A6"/>
+<colUsage columnID="E11CD637-67D0-CB74-ABEC-F83E2743F3E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C31B8DF-50C8-8374-DBAF-B37163BB1F31" name="Atrakcje_zam_Zam_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>456FBDFB-BC39-4670-EAE7-447DD5A705B0</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B04218F0-B17A-A5B9-A876-4D47F19EDBEF"/>
+<colUsage columnID="98894F4B-09F7-5A82-F7F8-6E9152ECB255"/>
+<colUsage columnID="47337CFA-C24E-A51D-D70F-5F93AC9A16A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A07F455C-75F2-7981-52DA-2C2FE33D5615" name="Atrakcje_zam_Atrakcje_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>DF05CC36-3A05-AB2D-3107-F6F3969AB822</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E11CD637-67D0-CB74-ABEC-F83E2743F3E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

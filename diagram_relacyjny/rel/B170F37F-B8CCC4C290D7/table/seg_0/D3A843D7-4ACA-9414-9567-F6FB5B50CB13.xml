@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3A843D7-4ACA-9414-9567-F6FB5B50CB13" name="Uslugi_Zam">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>8129B26F-4CEC-A5EA-AE96-8BC305C05D06</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zam_ID_Zamowienia" id="4C2AF443-B4B8-EFAA-57B6-188DC7914779">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>CE1A9D1A-7A97-103F-D552-F683B3ADE3AD</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BDCAE82-81B3-1BD1-AFB6-98C7A55603D1" referredColumn="B2609205-DD07-F182-ACBF-7DC51390D446"/>
+</associations>
+</Column>
+<Column name="Zam_Klient_ID_Klienta" id="536BE7E0-B796-18DD-FB15-F9FD42706916">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>033DE748-12E3-C528-A53E-450B102B88AC</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BDCAE82-81B3-1BD1-AFB6-98C7A55603D1" referredColumn="39F6EFD7-F82F-6365-3EE5-36546BBC168C"/>
+</associations>
+</Column>
+<Column name="Zam_Wyc_ID_Wycieczki" id="708B041B-7781-9135-2A11-473CC4070EC7">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>D55BFB40-03E8-1210-74E8-AAA82267DB5F</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BDCAE82-81B3-1BD1-AFB6-98C7A55603D1" referredColumn="6FBE0F0F-85F0-D033-DEE5-EAA47CC5B6E4"/>
+</associations>
+</Column>
+<Column name="Uslugi_ID_Uslugi" id="32765631-CFD7-588D-223A-87036E9920B9">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>DEE1321D-B6FF-F022-06FE-CD0E1BBD0F25</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5186E996-1A9D-48ED-445C-2FC735C9F475" referredColumn="A36981DF-6079-7168-F9AB-AD5B2A3F28D9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3431C996-6352-0239-BBD7-83F1F8085607" name="Uslugi_Zamowienia_PK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>43315080-F846-2F90-DACA-7830620448B9</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C2AF443-B4B8-EFAA-57B6-188DC7914779"/>
+<colUsage columnID="536BE7E0-B796-18DD-FB15-F9FD42706916"/>
+<colUsage columnID="708B041B-7781-9135-2A11-473CC4070EC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7FFA3B9-D723-0335-D21D-34E3EE2E9358" name="Uslugi_Zam_Zam_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>DC90909E-1E6D-F75A-AC9D-70C0849AF096</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C2AF443-B4B8-EFAA-57B6-188DC7914779"/>
+<colUsage columnID="536BE7E0-B796-18DD-FB15-F9FD42706916"/>
+<colUsage columnID="708B041B-7781-9135-2A11-473CC4070EC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0B4F40F-ED62-A112-68A3-8433FEB0755A" name="Uslugi_Zam_Uslugi_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>C302DA89-43F7-0749-04F2-EE5F0E17D09E</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32765631-CFD7-588D-223A-87036E9920B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

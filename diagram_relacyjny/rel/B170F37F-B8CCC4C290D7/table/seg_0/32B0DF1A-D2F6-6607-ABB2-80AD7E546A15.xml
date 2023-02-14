@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32B0DF1A-D2F6-6607-ABB2-80AD7E546A15" name="Uslugi_Wyc">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>542FB8E4-912E-5953-59D7-66B5E3563DE8</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ilosc_miejsc" id="19E5A59E-0889-6345-A9AC-05A0E78933C2">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>8E429D7E-EE4C-C111-15C6-17DFD7F1B532</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miejsca_zajete" id="3EC8781E-D758-75FE-956B-B1CE20867BD7">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>B4FC733B-04A3-3A6A-4678-DDC4B51C33CF</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena" id="7820F273-6933-6D9D-9CEF-5DAE9B22E1E0">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>427587DC-EBFC-93CD-D87B-33BC75E5601F</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Uslugi_ID_Uslugi" id="D619846B-1308-BE77-61ED-E33F29170BCC">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>30BA51B8-9587-9816-08FC-0A829F8173AA</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="199BD7AF-55F6-7D00-05B1-6F7920BF8220" referredColumn="A36981DF-6079-7168-F9AB-AD5B2A3F28D9"/>
+</associations>
+</Column>
+<Column name="Wyc_ID_Wycieczki" id="7E6274AD-BAAA-0D03-8D1A-D728B62391DB">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>1FAD27C7-81B2-313B-1713-FAA15A5A5AA9</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0D8FA29-27D0-377C-19B7-810980D1537F" referredColumn="B6ABB5C6-F94B-A090-1CF3-E1CF893FBF39"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1A896C7-CD26-E3C9-BDC5-DEC68B9926C3" name="Uslugi_Wycieczki_PK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>2D7B46E1-88CC-9329-8482-AB1A5FAE2E01</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D619846B-1308-BE77-61ED-E33F29170BCC"/>
+<colUsage columnID="7E6274AD-BAAA-0D03-8D1A-D728B62391DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D12CAB1-E7F2-3078-9B75-5F83411D3897" name="Uslugi_Wyc_Uslugi_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>A0CA698F-10D8-4871-D0A6-48F07CC95D60</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D619846B-1308-BE77-61ED-E33F29170BCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="051DF56F-AC3B-1D3A-11D7-25C0DA979E16" name="Uslugi_Wyc_Wyc_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>637D2715-50A4-9F32-4E31-2DD8821C8305</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E6274AD-BAAA-0D03-8D1A-D728B62391DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

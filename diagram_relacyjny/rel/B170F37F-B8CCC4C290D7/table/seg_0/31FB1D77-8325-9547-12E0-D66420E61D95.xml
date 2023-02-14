@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31FB1D77-8325-9547-12E0-D66420E61D95" name="Uslugi_Rez">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>96533B50-4F8D-53C6-4278-3211818EFBF2</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ilosc_miejsc" id="8C779E70-DA29-D387-2CAA-834DF798363B">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>77B5378C-EDB9-719A-21ED-6AF7ED9D3513</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Uslugi_ID_Uslugi" id="614FE959-2BA2-E084-E320-BD1E8F475C8C">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>9797E160-0598-319A-7411-BAF626B2FC9F</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35E9A632-9EF5-1345-C44A-58B71F0E2360" referredColumn="A36981DF-6079-7168-F9AB-AD5B2A3F28D9"/>
+</associations>
+</Column>
+<Column name="Rez_ID_Rezerwacji" id="4AAFA8E4-A975-D001-AFB4-F3BEE18DDFE9">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>D983DB9C-6CB1-BF15-5C64-87ACF8B1030B</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4BA5242-028F-AAEE-27D6-BC64739E27E9" referredColumn="23ED88B4-2E11-46AA-42E9-33C1D4D218AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E92D90E-DD42-E43B-8A76-58A44EA20FE8" name="Uslugi_Rezerwacji_PK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>2BD5943E-3BAF-879F-A862-82BAE637F105</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="614FE959-2BA2-E084-E320-BD1E8F475C8C"/>
+<colUsage columnID="4AAFA8E4-A975-D001-AFB4-F3BEE18DDFE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1072AC8-602A-14AA-096E-F32089E54F8B" name="Uslugi_Rez_Uslugi_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>9444E6D5-6BA8-2CA8-D48F-CCB475CBCA00</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="614FE959-2BA2-E084-E320-BD1E8F475C8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8ABAFEF5-287C-D172-7663-7656CB742999" name="Uslugi_Rez_Rez_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>68BB18AF-1C60-BE1C-D452-A92D4121ACCE</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AAFA8E4-A975-D001-AFB4-F3BEE18DDFE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="053587A1-5C7C-62A2-271E-A80E2FA42D9A" name="Pracownik">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 16:14:35 UTC</createdTime>
+<generatorID>DE1C9E98-5E39-BC98-15A5-940D6119E196</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<ordsAlias>pracownikv1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pracownika" id="864BCF6B-361F-29E0-18AF-FCEC38964B27">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 16:14:35 UTC</createdTime>
+<generatorID>1E12CCE4-0ACE-52D9-4C37-9B87C7601597</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="E1914B4B-6262-0154-BEB1-7D40266BCDD2">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 16:14:35 UTC</createdTime>
+<generatorID>B4D37E5E-C311-E4CD-CB58-05625957FDDA</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="BABCD764-E524-C495-5AED-D6B0D633B38D">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 16:14:35 UTC</createdTime>
+<generatorID>F0869953-177C-6DF7-0860-1AAD331F8AF5</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stanowisko" id="B9FE895E-58B2-EB8F-3EDF-FD27A09763F2">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 16:14:35 UTC</createdTime>
+<generatorID>551D17F8-50F9-64AA-7F30-44F2784642FE</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nr_telefonu" id="07ECEA97-242A-8E7E-4C44-8D8B04E3C2E6">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 16:14:35 UTC</createdTime>
+<generatorID>A5959609-537D-13B8-A0AA-57439C51C9D8</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E_mail" id="427AFAC6-9943-E7C3-79C9-B9405AA4FCD7">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 16:14:35 UTC</createdTime>
+<generatorID>3C0CB6FD-9A41-9E74-2AD0-373FFBD5C17A</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE2B58D3-7CF4-5026-9DF5-7BF673150493" name="Pracownik_PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 16:14:35 UTC</createdTime>
+<generatorID>AC18B962-438E-1C38-3003-394ACD8831A9</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="864BCF6B-361F-29E0-18AF-FCEC38964B27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

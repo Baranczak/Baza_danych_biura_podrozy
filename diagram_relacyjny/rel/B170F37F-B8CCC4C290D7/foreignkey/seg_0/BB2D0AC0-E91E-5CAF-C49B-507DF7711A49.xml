@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB2D0AC0-E91E-5CAF-C49B-507DF7711A49" containerWithKeyObject="A93082F8-AA62-331F-6189-468BBC152C6E" localFKIndex="68124084-230E-E8E5-A3E9-3C1CE42D4C6D" name="Zam_Wyc_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>C47CBF9E-5152-BFF7-92C3-479FAC0E2F44</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<referredTableLongName>Wyc</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8E7CB0B6-D11B-309C-EE96-92B0B2EE3967</referredTableID>
+<keyObject>7325A8BC-AF2D-9D2A-A910-122BB5063EEE</keyObject>
+<referredKeyID>7325A8BC-AF2D-9D2A-A910-122BB5063EEE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Wycieczki</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

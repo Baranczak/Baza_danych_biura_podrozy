@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9BDCAE82-81B3-1BD1-AFB6-98C7A55603D1" containerWithKeyObject="D3A843D7-4ACA-9414-9567-F6FB5B50CB13" localFKIndex="F7FFA3B9-D723-0335-D21D-34E3EE2E9358" name="Uslugi_Zam_Zam_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>DC90909E-1E6D-F75A-AC9D-70C0849AF096</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<referredTableLongName>Zam</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A93082F8-AA62-331F-6189-468BBC152C6E</referredTableID>
+<keyObject>D1A48748-94D9-A7EC-2913-63C3BD4A24D0</keyObject>
+<referredKeyID>D1A48748-94D9-A7EC-2913-63C3BD4A24D0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_Zamowienia,Klient_ID_Klienta,Wyc_ID_Wycieczki</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

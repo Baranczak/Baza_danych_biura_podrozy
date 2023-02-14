@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D058FC9-6D3C-FBD8-C3BF-0E84E206351E" name="Hotele">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>34BF68B5-E85E-8475-9651-D3FEF7158224</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Hotelu" id="B189D414-B4B2-009E-7E7B-3FD8506611D2">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>90460502-C656-72D9-A25F-48F10E490F97</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="AED220E2-82B2-AAE7-53AB-A189C59D8ED7">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>DF3707B4-22B1-F27E-6250-1318A38AFC0E</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ilosc_gwiazdek" id="2D8F49E7-DE41-478E-30E7-C9B238E62F4C">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>45D61C21-6F35-FFDD-6399-2DF0CB305E94</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nr_tel" id="8570C4C6-7ECB-8826-0C43-D6F716B9DACD">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>B03CA435-7B4E-8776-5C07-F8EBE0F85D5F</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Strona" id="FE11805E-11F9-5D43-38BC-A85B7405197C">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>20F3D5F9-EC5A-8485-DD02-D85BCC73A48C</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis_hotelu" id="2A85340A-95F2-5DE3-63B5-F3CFF07D15CA">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>FEFE2A14-FFEE-C831-42D7-B97E344CDBDD</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokalizacja_ID_Lokalizacji" id="66B94EB6-3CB2-C79F-CEE8-5BB4A75FEC40">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 15:15:27 UTC</createdTime>
+<generatorID>9C87EB33-E8D1-54AE-61A8-F29D1E329922</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD324F9B-A391-D047-8B9D-254C14DBB350" referredColumn="59C35520-45C8-2BF5-87DE-3915C8B14C1C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10B5DEF3-E4F2-1704-5495-8A490D21C648" name="Hotele_PK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>678BCD29-973F-C282-9536-0ABD438EA542</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B189D414-B4B2-009E-7E7B-3FD8506611D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A5FFE9B-639E-FA25-AA6E-9E29D9CDEA9C" name="Hotele__IDX">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 15:15:28 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>70152E40-05FD-09B9-499D-F8B149756358</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="66B94EB6-3CB2-C79F-CEE8-5BB4A75FEC40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFDBECF9-45EB-4D0D-C3A0-BD2F892A488F" name="Hotele_Lokalizacja_FK">
+<createdBy>Kamil</createdBy>
+<createdTime>2022-02-09 17:15:26 UTC</createdTime>
+<generatorID>70152E40-05FD-09B9-499D-F8B149756358</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66B94EB6-3CB2-C79F-CEE8-5BB4A75FEC40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

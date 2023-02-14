@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B4BA5242-028F-AAEE-27D6-BC64739E27E9" containerWithKeyObject="31FB1D77-8325-9547-12E0-D66420E61D95" localFKIndex="8ABAFEF5-287C-D172-7663-7656CB742999" name="Uslugi_Rez_Rez_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>68BB18AF-1C60-BE1C-D452-A92D4121ACCE</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<referredTableLongName>Rez</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7AFAE75D-241D-71C0-D509-47A8F6D2B51F</referredTableID>
+<keyObject>2BDDB73B-5D5F-1D78-9959-CEBB788DB625</keyObject>
+<referredKeyID>2BDDB73B-5D5F-1D78-9959-CEBB788DB625</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Rezerwacji</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

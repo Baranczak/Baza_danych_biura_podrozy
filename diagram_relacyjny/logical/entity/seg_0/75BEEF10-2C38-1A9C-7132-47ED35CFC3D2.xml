@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75BEEF10-2C38-1A9C-7132-47ED35CFC3D2" name="Hotele_wyc">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:47:08 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Data_przybycia" id="611DF93C-F15A-2EB6-0876-5A485C90DD11">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:47:24 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_odjazdu" id="16F87F61-6E8E-EDBE-D363-0FC735E91A80">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:47:40 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Wycieczki" id="C43714AC-41FC-EA58-4E1A-76010C017D84">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:49:13 UTC</createdTime>
+<generatorID>224ECC76-62EE-4326-D9D9-193E66DE3455</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<referedAttribute>CFFD9F52-ED45-92E2-AA9A-5512CBFE2C6D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Hotelu" id="511D6E0A-D193-5745-161D-444326F6B851">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:49:47 UTC</createdTime>
+<generatorID>A3929FFD-29EC-6477-C851-3A617BEC1D17</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<referedAttribute>90460502-C656-72D9-A25F-48F10E490F97</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6B9AF282-220C-903A-89CE-68994C082EAB" name="Hotele_Wycieczki PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:49:13 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C43714AC-41FC-EA58-4E1A-76010C017D84</attributeRef>
+<attributeRef>511D6E0A-D193-5745-161D-444326F6B851</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

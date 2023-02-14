@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3ACFA16-4EE6-52EA-3021-7CD09A168196" name="Atrakcje_zam">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:44:36 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Zamowienia" id="A22F9828-9EBD-BB76-CE8C-E523377C7311">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:50:17 UTC</createdTime>
+<generatorID>456FBDFB-BC39-4670-EAE7-447DD5A705B0</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<referedAttribute>D58B712D-901D-380A-F369-AF75FE9958D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Klienta" id="2E0CF4D8-7DB6-8F87-B58D-8CF657358745">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:50:17 UTC</createdTime>
+<generatorID>456FBDFB-BC39-4670-EAE7-447DD5A705B0</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<referedAttribute>B21B8FEA-3776-595F-AB5F-E9DE5D9A5EC4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Wycieczki" id="9EC39533-4E0D-B688-7FFC-5A77D0E48DD7">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:50:17 UTC</createdTime>
+<generatorID>456FBDFB-BC39-4670-EAE7-447DD5A705B0</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<referedAttribute>BFF8F68B-E0F4-BA6C-EC4D-12F915711FEA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Atrakcji" id="80AB7AC4-3C6C-82CA-0508-7CEA8BE7BC4E">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:50:33 UTC</createdTime>
+<generatorID>DF05CC36-3A05-AB2D-3107-F6F3969AB822</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<referedAttribute>1863E0B3-D3D5-8DC8-C39C-0F654F97556F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B43F9EB9-3264-5BE2-32AB-74C371EDA284" name="Atrakcje_Zamowienia PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:50:17 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A22F9828-9EBD-BB76-CE8C-E523377C7311</attributeRef>
+<attributeRef>2E0CF4D8-7DB6-8F87-B58D-8CF657358745</attributeRef>
+<attributeRef>9EC39533-4E0D-B688-7FFC-5A77D0E48DD7</attributeRef>
+<attributeRef>80AB7AC4-3C6C-82CA-0508-7CEA8BE7BC4E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

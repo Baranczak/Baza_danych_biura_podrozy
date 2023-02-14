@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96533B50-4F8D-53C6-4278-3211818EFBF2" name="Uslugi_Rez">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:46:22 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ilosc_miejsc" id="77B5378C-EDB9-719A-21ED-6AF7ED9D3513">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:46:34 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Uslugi" id="9797E160-0598-319A-7411-BAF626B2FC9F">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:47:21 UTC</createdTime>
+<generatorID>9444E6D5-6BA8-2CA8-D48F-CCB475CBCA00</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<referedAttribute>C70E4236-1062-130F-EBCD-A537917FBC73</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Rezerwacji" id="D983DB9C-6CB1-BF15-5C64-87ACF8B1030B">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:47:46 UTC</createdTime>
+<generatorID>68BB18AF-1C60-BE1C-D452-A92D4121ACCE</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<referedAttribute>1EF7C742-50F9-02DA-32D5-CFE32A370FF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BD5943E-3BAF-879F-A862-82BAE637F105" name="Uslugi_Rezerwacji PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:47:21 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9797E160-0598-319A-7411-BAF626B2FC9F</attributeRef>
+<attributeRef>D983DB9C-6CB1-BF15-5C64-87ACF8B1030B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

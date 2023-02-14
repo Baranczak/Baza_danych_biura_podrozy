@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9241787B-70B2-D43C-1A21-5197F40795B6" containerWithKeyObject="9861FBEF-B96B-75A4-0881-D54247E7E439" localFKIndex="8FB37353-39BA-ACDC-1539-677D0B6D648F" name="Atrakcje_wyc_Atrakcje_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>D044D8E9-5A30-1BD8-C64D-47DB352332D8</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<referredTableLongName>Atrakcje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CACD688F-83B2-384A-8EB9-1907A1E6EE28</referredTableID>
+<keyObject>D421DAEB-ED9C-E5B2-D79F-2CA97EB4240C</keyObject>
+<referredKeyID>D421DAEB-ED9C-E5B2-D79F-2CA97EB4240C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_Atrakcji</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

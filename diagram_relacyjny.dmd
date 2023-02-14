@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="diagram_relacyjny" id="06D31662-6989-0816-8223-A6DAFCA41405" version="3.5">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 17:31:56 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>06D31662-6989-0816-8223-A6DAFCA41405</designId>
+</OSDM_Design>

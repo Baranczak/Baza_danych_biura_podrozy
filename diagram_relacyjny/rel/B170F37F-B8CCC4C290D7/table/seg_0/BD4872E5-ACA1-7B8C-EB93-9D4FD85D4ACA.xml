@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD4872E5-ACA1-7B8C-EB93-9D4FD85D4ACA" name="Hotele_wyc">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>75BEEF10-2C38-1A9C-7132-47ED35CFC3D2</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Data_przybycia" id="D64AE74A-E9B7-6A9C-21D4-7381E99E661D">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>611DF93C-F15A-2EB6-0876-5A485C90DD11</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_odjazdu" id="416CBD30-CC0A-A138-8D08-EC9456B2D1B5">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>16F87F61-6E8E-EDBE-D363-0FC735E91A80</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wyc_ID_Wycieczki" id="9C1B5364-E746-0972-0A98-4E5219F07202">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>C43714AC-41FC-EA58-4E1A-76010C017D84</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA689E64-C7C3-0457-C158-4B7F883DB603" referredColumn="B6ABB5C6-F94B-A090-1CF3-E1CF893FBF39"/>
+</associations>
+</Column>
+<Column name="Hotele_ID_Hotelu" id="7C39528D-4AA5-2FB2-9D83-30E00D942301">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>511D6E0A-D193-5745-161D-444326F6B851</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1855EB6D-EF8E-CDAF-D912-DCE907125637" referredColumn="B189D414-B4B2-009E-7E7B-3FD8506611D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2291D5F7-4BA3-3FFF-F466-8A3350B03CB4" name="Hotele_Wycieczki_PK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>6B9AF282-220C-903A-89CE-68994C082EAB</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C1B5364-E746-0972-0A98-4E5219F07202"/>
+<colUsage columnID="7C39528D-4AA5-2FB2-9D83-30E00D942301"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28FA9E39-AB7B-1AEB-F719-E5633EA4069C" name="Hotele_wyc_Wyc_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>224ECC76-62EE-4326-D9D9-193E66DE3455</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C1B5364-E746-0972-0A98-4E5219F07202"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3101370C-66C5-0570-1033-4BB083161EB4" name="Hotele_wyc_Hotele_FK">
+<createdBy>KOMP</createdBy>
+<createdTime>2022-01-14 12:23:52 UTC</createdTime>
+<generatorID>A3929FFD-29EC-6477-C851-3A617BEC1D17</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C39528D-4AA5-2FB2-9D83-30E00D942301"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

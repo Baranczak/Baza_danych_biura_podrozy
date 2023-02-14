@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="353DCB7C-16AB-64BB-EEDC-718B8DF3689C" name="Atrakcje_wyc">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:50:36 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ilosc_Miejsc" id="245F9833-436D-4DCB-233F-096B578F19F5">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:50:54 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Miejsca_Zajete" id="E9B08F7B-0962-4F47-3D9B-531FB9442BA6">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:51:18 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena" id="E0CB13E4-1634-C25D-9C43-F629732CF248">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-03 18:51:39 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Wycieczki" id="7CBF5F66-B5AF-15F1-D010-97C62470E947">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:48:57 UTC</createdTime>
+<generatorID>6C5E28A2-78FF-E788-D20F-F8471859FCCD</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<referedAttribute>CFFD9F52-ED45-92E2-AA9A-5512CBFE2C6D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Atrakcji" id="FB6E7135-8995-CC3D-7D50-B144F8BFE1B8">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:50:47 UTC</createdTime>
+<generatorID>D044D8E9-5A30-1BD8-C64D-47DB352332D8</generatorID>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="true"/>
+</engineerTo>
+<referedAttribute>1863E0B3-D3D5-8DC8-C39C-0F654F97556F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6323D59A-CB26-E447-2323-8BDCAF600365" name="Atrakcje_Wycieczki PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2021-12-05 13:48:57 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B170F37F-1D2D-EAB6-2AFB-B8CCC4C290D7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7CBF5F66-B5AF-15F1-D010-97C62470E947</attributeRef>
+<attributeRef>FB6E7135-8995-CC3D-7D50-B144F8BFE1B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

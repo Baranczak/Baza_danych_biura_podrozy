@@ -1,8 +1,13 @@
 # Baza-danych-biura-podrozy
 
-Moim zadaniem było stworzenie bazy danych od podstaw. Wybrałem utworzenie bazy biura podróży.
-Stworzyłem wszystkie tabele relacje, dodałem po kilkanaście rekordów do bazy, tak aby wszystko
-tworzyło logiczną całość. Na końcu sworzyłem kilkanaście kwerend różnego typy, które można zobaczyć
-w sprawozdaniu, które wykonałem po stworzeniu całego projektu. 
+Projekt składa się z plików SQL tworzących strukturę bazy danych oraz przykładowych danych 
+umieszczonych w tabelach. Baza danych składa się z kilku powiązanych ze sobą tabel, w tym 
+tabel dotyczących klientów, ofert turystycznych, rezerwacji oraz płatności.
 
-Projekt został wykonany w języku PL/SQL.  
+W moim projkcie stworzyłem również kilkanaście kwerend w języku PL/SQL, które umożliwiają
+między innymi dodanie nowego klienta, ofert turystycznych, oraz realizację płatności.
+
+Stworzony przezemnie projekt ma na celu przedstawienie przykładowej implementacji bazy danych 
+dla biura podróży, oraz umożliwienie użytkownikom zapoznanie się z jej stukturą, oraz sposobem
+działania.
+
